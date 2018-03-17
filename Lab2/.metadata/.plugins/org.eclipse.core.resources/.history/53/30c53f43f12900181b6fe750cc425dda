@@ -8,7 +8,7 @@ public class Cart {
 		double sum = 0;
 		for(CartItem it : items)
 			sum += it.getProduct().getPrice();
-		return sum;
+return sum;
 	}
 	public ArrayList<CartItem> getItems() {
 		return items;
@@ -20,7 +20,7 @@ public class Cart {
 	
 	@Override
 	public String toString() {
-		return "Cart [\nitems=" + items + "]" ;
+		return "Cart [\nitems=" + items + "]";
 }
 	public Cart addPromotion(MugPromo p){
 		promotions.add(p);

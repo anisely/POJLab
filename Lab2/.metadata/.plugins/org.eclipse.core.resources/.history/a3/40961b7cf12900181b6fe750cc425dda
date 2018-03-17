@@ -8,7 +8,7 @@ public class Cart {
 		double sum = 0;
 		for(CartItem it : items)
 			sum += it.getProduct().getPrice();
-		return sum;
+return sum;
 	}
 	public ArrayList<CartItem> getItems() {
 		return items;

@@ -20,7 +20,7 @@ public class Cart {
 	
 	@Override
 	public String toString() {
-		return "Cart [\nitems=" + items + "]" ;
+		return "Cart [\nitems=" + items + "]" + totalPriceOfProducts ;
 }
 	public Cart addPromotion(MugPromo p){
 		promotions.add(p);

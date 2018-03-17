@@ -13,11 +13,6 @@ public class Main{
 		cart.applyPromotions();
 		
 		System.out.println(cart);
-		
-		cart.addPromotion(new Promotion2());
-		cart.applyPromotions();
-		
-		System.out.println(cart);
 	}
 	
 }
