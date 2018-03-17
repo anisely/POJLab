@@ -1,0 +1,6 @@
+package javamarkt.markt;
+
+public interface MugPromo {
+	boolean CanCalculate();
+	void CalculateOffer();
+}

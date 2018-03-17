@@ -1,0 +1,8 @@
+package markt;
+
+
+public class CartItem {
+private Product product;
+private double currentPrice;
+
+}

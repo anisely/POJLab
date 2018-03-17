@@ -1,0 +1,15 @@
+package javamarkt;
+import javamarkt.markt.Cart;
+import markt.*;
+
+public class Main{
+	
+	public static void main(String[]args){
+		Cart cart = new Cart();
+		cart.addProduct(new Product("Something",42.5));
+		cart.addProduct(new Product("Else",452.1));
+		
+		System.out.println(cart);
+	}
+	
+}
